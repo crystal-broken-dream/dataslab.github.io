@@ -1,0 +1,11 @@
+ID,Product_Number,Industry_Type,Customer_Type,Brand_Number,Segments_Number,Country_number
+1,3,Energy and Resources; Industrial and Manufacturing,Business,1,2,7
+2,15,Industrial and Manufacturing,Business,1,3,2
+3,0,Others,Business; Consumer,2,0,0
+4,3,Others,"Business, Consumer",1,0,1
+5,21,Healthcare and Education,"Consumer, Business",1,0,1
+6,0,Others,"Business, Consumer",1,5,1
+7,0,Industrial and Manufacturing,Business; Government,1,0,0
+8,1,Others,"Business, Consumer",1,2,1
+9,0,Healthcare and Education,"Consumer, Business",1,4,0
+10,3,Healthcare and Education,"Business, Government",1,0,1
