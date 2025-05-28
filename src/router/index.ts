@@ -8,6 +8,10 @@ import IntroductionView from "@/views/GettingStarted/IntroductionView.vue";
 
 import ExamplesLayout from "@/views/Examples/ExamplesLayout.vue";
 import ExamplesIndex from "@/views/Examples/ExamplesIndex.vue";
+import DataSelectionStrategiesLayout from "@/views/DataSelectionStrategies/DataSelectionStrategiesLayout.vue";
+import DataSelectionStrategiesIndex from "@/views/DataSelectionStrategies/DataSelectionStrategiesIndex.vue";
+import ModelAgnosticStrategies from "@/views/DataSelectionStrategies/Model-agnosticStrategies.vue";
+import ForEfficientTraining from "@/views/DataSelectionStrategies/ForEfficientTraining.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -29,6 +33,22 @@ const routes: Array<RouteRecordRaw> = [
     name: "examples",
     component: ExamplesLayout,
     children: [{ path: "", component: ExamplesIndex }],
+  },
+  {
+    path: "/data-selection-strategies",
+    name: "data selection strategies",
+    component: DataSelectionStrategiesLayout,
+    children: [
+      { path: "", component: DataSelectionStrategiesIndex },
+      {
+        path: "for-efficient-training",
+        component: ForEfficientTraining,
+      },
+      {
+        path: "for-efficient-training/model-agnostic-strategies",
+        component: ModelAgnosticStrategies,
+      },
+    ],
   },
   {
     path: "/demo",

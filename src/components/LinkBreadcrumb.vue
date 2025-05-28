@@ -5,10 +5,10 @@
         v-if="index !== routes.length - 1"
         :href="'/' + routes.slice(0, index + 1).join('/')"
       >
-        {{ map.get(route) }}
+        {{ map.get(route) || route }}
       </a>
       <span v-if="index === routes.length - 1">
-        {{ map.get(route) }}
+        {{ map.get(route) || route }}
       </span>
     </a-breadcrumb-item>
   </a-breadcrumb>
@@ -31,6 +31,8 @@ const map: Map<string, string> = new Map<string, string>([
   ["getting-started", "getting started"],
   ["examples", "examples"],
   ["introduction", "introduction"],
+  ["data-selection-strategies", "data selection strategies"],
+  ["for-efficient-training", "for efficient training"],
   ["demo", "demo"],
 ]);
 </script>

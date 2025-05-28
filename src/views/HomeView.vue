@@ -33,7 +33,12 @@
               </template>
             </LinkCard>
           </a-col>
-
+          <a-col span="12">
+            <LinkCard href="/data-selection-strategies">
+              <template #title>Data Selection Strategies</template>
+              <template #content> </template>
+            </LinkCard>
+          </a-col>
           <a-col span="12">
             <LinkCard href="/demo">
               <template #title>Demo</template>

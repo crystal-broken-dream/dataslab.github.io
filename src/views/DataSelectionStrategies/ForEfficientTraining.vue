@@ -1,6 +1,8 @@
 <template>
   <a-layout has-sider>
-    <a-layout :style="{ background: '#fff' }"> index </a-layout>
+    <a-layout :style="{ background: '#fff' }">
+      For Efficient Training
+    </a-layout>
 
     <a-layout-sider :style="[{ right: 0 }, siderStyle]" theme="light">
       <b>Table of contents </b> <br /><br />
