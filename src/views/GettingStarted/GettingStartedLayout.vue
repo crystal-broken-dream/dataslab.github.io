@@ -12,7 +12,7 @@
         :affix="false"
         :items="[
           {
-            href: '/getting-started/introduction',
+            href: '/#/getting-started/introduction',
             title: 'Introduction',
           },
         ]"

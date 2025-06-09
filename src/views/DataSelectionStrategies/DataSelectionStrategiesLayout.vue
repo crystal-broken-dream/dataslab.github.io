@@ -11,34 +11,34 @@
         :items="[
           {
             key: 'ForEfficientTraining',
-            href: '/data-selection-strategies/for-efficient-training',
+            href: '/#/data-selection-strategies/for-efficient-training',
             title: 'For Efficient Training',
             children: [
               {
                 key: 'ModelAgnosticStrategies',
-                href: '/data-selection-strategies/for-efficient-training/model-agnostic-strategies',
+                href: '/#/data-selection-strategies/for-efficient-training/model-agnostic-strategies',
                 title: 'Model-agnostic strategies',
               },
               {
                 key: 'ModelAwareStrategies',
-                href: '/data-selection-strategies/for-efficient-training/model-aware-strategies',
+                href: '/#/data-selection-strategies/for-efficient-training/model-aware-strategies',
                 title: 'Model-aware strategies',
               },
             ],
           },
           {
             key: 'ForEfficientTraining',
-            href: '/data-selection-strategies/for-effective-training',
+            href: '/#/data-selection-strategies/for-effective-training',
             title: 'For Efficient Training',
             children: [
               {
                 key: 'TaskAgnosticBasedStrategies',
-                href: '/data-selection-strategies/for-effective-training/task-agnostic-based-strategies',
+                href: '/#/data-selection-strategies/for-effective-training/task-agnostic-based-strategies',
                 title: 'Task-agnostic based strategies',
               },
               {
                 key: 'TaskAwareBasedStrategies',
-                href: '/data-selection-strategies/for-effective-training/task-aware-based-strategies',
+                href: '/#/data-selection-strategies/for-effective-training/task-aware-based-strategies',
                 title: 'Task-aware based strategies',
               },
             ],
