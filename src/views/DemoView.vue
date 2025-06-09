@@ -12,7 +12,7 @@
 
         <a-typography-paragraph>
           common text
-          <a-typography-link href="/demo" target="_blank">
+          <a-typography-link @click="router.push('/demo')" target="_blank">
             common link
           </a-typography-link>
         </a-typography-paragraph>
@@ -122,6 +122,9 @@ import CSVParser from "@/components/CSVParser.vue";
 import { VueLatex } from "vatex";
 
 import { ref, defineComponent } from "vue";
+
+import { useRouter } from "vue-router";
+const router = useRouter();
 
 defineComponent({
   components: {

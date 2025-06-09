@@ -15,21 +15,31 @@
             title: 'For Efficient Training',
             children: [
               {
-                key: 'Model-agnosticStrategies',
+                key: 'ModelAgnosticStrategies',
                 href: '/data-selection-strategies/for-efficient-training/model-agnostic-strategies',
                 title: 'Model-agnostic strategies',
-                children: [
-                  {
-                    key: '5',
-                    href: '#link-props',
-                    title: 'Link Props',
-                  },
-                ],
               },
               {
-                key: '5',
-                href: '#link-props',
-                title: 'Link Props',
+                key: 'ModelAwareStrategies',
+                href: '/data-selection-strategies/for-efficient-training/model-aware-strategies',
+                title: 'Model-aware strategies',
+              },
+            ],
+          },
+          {
+            key: 'ForEfficientTraining',
+            href: '/data-selection-strategies/for-effective-training',
+            title: 'For Efficient Training',
+            children: [
+              {
+                key: 'TaskAgnosticBasedStrategies',
+                href: '/data-selection-strategies/for-effective-training/task-agnostic-based-strategies',
+                title: 'Task-agnostic based strategies',
+              },
+              {
+                key: 'TaskAwareBasedStrategies',
+                href: '/data-selection-strategies/for-effective-training/task-aware-based-strategies',
+                title: 'Task-aware based strategies',
               },
             ],
           },

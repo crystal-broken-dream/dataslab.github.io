@@ -21,7 +21,7 @@
 
     <a-layout-content :style="{ marginTop: '64px' }">
       <LinkBreadcrumb />
-      <div :style="{ background: 'white', minHeight: '500px' }">
+      <div :style="{ background: 'white', minHeight: '700px' }">
         <router-view />
       </div>
       <a-back-top />

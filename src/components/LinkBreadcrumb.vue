@@ -3,7 +3,7 @@
     <a-breadcrumb-item v-for="(route, index) in routes" :key="index">
       <a
         v-if="index !== routes.length - 1"
-        :href="'/' + routes.slice(0, index + 1).join('/')"
+        @click="router.push('/' + routes.slice(0, index + 1).join('/'))"
       >
         {{ map.get(route) || route }}
       </a>
